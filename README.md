@@ -1,93 +1,85 @@
-# 🇩🇪 Aurora Viewer – German Translation
+# 🇩🇪 Aurora Viewer – German Translation (QA5)
 
-**Community-maintained German localization for the Aurora Viewer (Second Life)**
+**Independent German localization for [Aurora Viewer](https://github.com/Aurora-Viewer/Aurora-Viewer), a Second Life viewer.**
 
-**Status:** Work in Progress – Public Preview
+**Status: QA5 community preview available — translation file only.** Aurora now also ships an official German localization. This project is offered as a source of possible improvements, **not as a replacement for the official translation**.
 
 ## English
 
-### About this project
+### About
 
-This repository provides a community-developed German translation (`de.ftl`) for the [Aurora Viewer](https://github.com/Aurora-Viewer/Aurora-Viewer), a viewer for Second Life.
+This project began because my partner wanted to use Aurora Viewer with a German-language interface. It is maintained by **Micha (Second Life: lupopa Grau)** with assistance from ChatGPT and OpenAI Codex.
 
-The project started because my partner wanted to use Aurora but needed a German user interface.
+### Download: QA5 German catalog
 
-The localization is being created and maintained by **Micha (Second Life: lupopa Grau)** in collaboration with **ChatGPT and OpenAI Codex**.
+**[Download de.ftl](https://github.com/Lupopa/Aurora-Viewer-German-Translation/raw/refs/heads/main/de.ftl)** · [View on GitHub](de.ftl)
 
-### Current status
+- **QA stage:** QA5 (community preview; not a final linguistic certification)
+- **Baseline:** Aurora source commit `f3aadd8153f82fa0f2e3e8bc4b7b53e68acc962a` (`f3aadd8`)
+- **Catalog coverage on that baseline:** 14,432 Fluent message keys
+- **Changes relative to this project's QA4:** 4,257 revised translations
+- **File size:** 1,000,839 bytes
+- **SHA-256 of `de.ftl`:** `6302b51d62d45b69c13cde9ca7610958240db80471dbe5e3ca6c5cec25e252f0`
 
-- German Fluent translation for Aurora Viewer
-- 14,432 localization keys covered for Aurora source commit `f3aadd8`
-- Fluent validation and Rust localization tests passed
-- Custom Windows x64 build successfully compiled
-- Initial in-world testing underway
-- Further terminology, grammar, and interface improvements planned
+QA5 underwent Fluent/structural validation and was integrated into a separately compiled Windows x64 test build. Initial testing in Second Life has been encouraging, with no major issues noticed so far. The compiled test viewer is **not distributed through this repository**.
 
-The translation has been developed with AI assistance and is subject to ongoing human review. Technical validation does not guarantee that every translation is linguistically correct.
+**Compatibility note:** This catalog targets the specific source commit above. Newer Aurora builds have changed their message keys; do not assume this file can replace the bundled `de.ftl` in Aurora 0.9.12 or later without a key/variable compatibility review. Where supported, Aurora's custom Fluent language-file feature may be useful for testing after such a review.
 
-### Availability
+### Working with upstream
 
-The German language file will be published here as a preview and updated as improvements become available.
+Aurora incorporated an official German translation through [PR #4315](https://github.com/Aurora-Viewer/Aurora-Viewer/pull/4315), based on earlier community contributions including [#3587](https://github.com/Aurora-Viewer/Aurora-Viewer/pull/3587).
 
-This repository provides localization resources, **not an official or modified Aurora Viewer distribution**.
+Rather than maintaining competing German versions, we would be happy to share suitable grammar, clarity, and Second Life terminology improvements with the Aurora team. A comparison against the **current** upstream German and English catalogs is required before any proposed merge.
 
-### Community and feedback
+[Our Aurora community discussion #3906](https://github.com/Aurora-Viewer/Aurora-Viewer/discussions/3906) · [Report a translation issue](https://github.com/Lupopa/Aurora-Viewer-German-Translation/issues)
 
-We welcome reports of incorrect translations, unclear wording, and terminology inconsistencies.
+### Review and credits
 
-You can also follow our announcement and discussion in the official Aurora repository:
+The translation was created and refined with AI assistance, glossary-based terminology checks, technical validation, and human in-viewer testing. **Not every string has been individually approved by a native speaker.** Technical validation cannot guarantee perfect wording or UI layout.
 
-[German Translation – GitHub Discussion #3906](https://github.com/Aurora-Viewer/Aurora-Viewer/discussions/3906)
+- German localization and in-world testing: **Micha (lupopa Grau)**
+- AI-assisted translation, review, and development support: **ChatGPT / OpenAI Codex**
+- Original viewer and official localization: **Aurora Viewer project and its community contributors**
 
-### Credits
-
-- German localization and testing: Micha (lupopa Grau)
-- Translation and development assistance: ChatGPT and OpenAI Codex
-- Original Aurora Viewer: The Aurora Viewer development team
-
-This is an independent community translation and is not an official Aurora release.
+This is an independent community effort, **not an official Aurora release**. See [LICENSE](LICENSE).
 
 ---
 
 ## Deutsch
 
-### Über dieses Projekt
+### Über das Projekt
 
-Dieses Repository stellt eine gemeinschaftlich entwickelte deutsche Übersetzung (`de.ftl`) für den [Aurora Viewer](https://github.com/Aurora-Viewer/Aurora-Viewer) für Second Life bereit.
+Dieses Projekt entstand, weil meine Partnerin den Aurora Viewer gerne mit einer deutschen Benutzeroberfläche verwenden möchte. Die Übersetzung wird von **Micha (Second Life: lupopa Grau)** mit Unterstützung von ChatGPT und OpenAI Codex gepflegt.
 
-Entstanden ist das Projekt, weil meine Partnerin Aurora ebenfalls nutzen möchte, dafür aber eine deutsche Benutzeroberfläche benötigt.
+### Download: Deutsche QA5-Sprachdatei
 
-Die Übersetzung wird von **Micha (Second Life: lupopa Grau)** gemeinsam mit **ChatGPT und OpenAI Codex** entwickelt und gepflegt.
+**[de.ftl herunterladen](https://github.com/Lupopa/Aurora-Viewer-German-Translation/raw/refs/heads/main/de.ftl)** · [Datei auf GitHub ansehen](de.ftl)
 
-### Aktueller Entwicklungsstand
+- **Stand:** QA5 (öffentliche Testfassung, keine abschließend sprachlich zertifizierte Version)
+- **Quellbasis:** Aurora-Commit `f3aadd8153f82fa0f2e3e8bc4b7b53e68acc962a` (`f3aadd8`)
+- **Umfang auf dieser Quellbasis:** 14.432 Fluent-Nachrichtenschlüssel
+- **Änderungen gegenüber unserer QA4:** 4.257 überarbeitete Übersetzungen
+- **Dateigröße:** 1.000.839 Bytes
+- **SHA-256 der `de.ftl`:** `6302b51d62d45b69c13cde9ca7610958240db80471dbe5e3ca6c5cec25e252f0`
 
-- Deutsche Fluent-Sprachdatei für Aurora Viewer
-- 14.432 Übersetzungsschlüssel für Aurora-Quellcommit `f3aadd8`
-- Fluent-Prüfung und Rust-Sprachmodultests erfolgreich
-- Eigener Windows-x64-Build erfolgreich kompiliert
-- Erste praktische Tests in Second Life laufen
-- Weitere Verbesserungen von Grammatik, Fachbegriffen und Benutzeroberfläche geplant
+QA5 wurde technisch geprüft und erfolgreich in einen separaten Windows-x64-Testbuild integriert. Die ersten praktischen Tests in Second Life verliefen erfreulich; bislang wurden keine größeren Auffälligkeiten festgestellt. **Der kompilierte Testviewer wird hier nicht zum Download angeboten.**
 
-Die Übersetzung entstand mit KI-Unterstützung und wird schrittweise menschlich geprüft. Erfolgreiche technische Tests bedeuten nicht, dass sämtliche Texte bereits sprachlich fehlerfrei sind.
+**Wichtiger Kompatibilitätshinweis:** Die Sprachdatei gehört zum oben genannten Aurora-Quellcommit. In neueren Aurora-Versionen haben sich Fluent-Schlüssel geändert. Eine direkte Verwendung als Ersatz für die offizielle `de.ftl` von Aurora 0.9.12 oder neuer ist **nicht ohne vorherige Prüfung** zu empfehlen. Die Unterstützung für eigene Sprachdateien kann anschließend beim Testen helfen.
 
-### Verfügbarkeit
+### Zusammenarbeit mit den Aurora-Entwicklern
 
-Die deutsche Sprachdatei wird hier als Vorabversion bereitgestellt und bei Verbesserungen aktualisiert.
+Aurora hat inzwischen über [Pull Request #4315](https://github.com/Aurora-Viewer/Aurora-Viewer/pull/4315) eine offizielle deutsche Übersetzung aufgenommen. Sie basiert auf früheren Community-Beiträgen, darunter [#3587](https://github.com/Aurora-Viewer/Aurora-Viewer/pull/3587).
 
-Dieses Repository enthält Übersetzungsdateien, **keine offizielle oder modifizierte Aurora-Viewer-Distribution**.
+Wir möchten **keine konkurrierende deutsche Version dauerhaft pflegen**, sondern geeignete Verbesserungen bei Grammatik, Verständlichkeit und Second-Life-Fachbegriffen für die offizielle Übersetzung anbieten. Vor einer Übernahme müssen unsere Texte mit dem **aktuellen** englischen und deutschen Aurora-Katalog abgeglichen werden.
 
-### Rückmeldungen
+[Unsere Aurora-Diskussion #3906](https://github.com/Aurora-Viewer/Aurora-Viewer/discussions/3906) · [Übersetzungsfehler melden](https://github.com/Lupopa/Aurora-Viewer-German-Translation/issues)
 
-Hinweise auf Übersetzungsfehler, unklare Formulierungen oder uneinheitliche Begriffe sind ausdrücklich willkommen.
+### Prüfung und Mitwirkende
 
-Unsere Projektankündigung im offiziellen Aurora-Repository:
+Die Sprachdatei entstand mit KI-Unterstützung, Fachglossaren, technischen Prüfungen und praktischen Tests durch einen deutschsprachigen Nutzer. **Nicht jeder einzelne Text wurde unabhängig von einem Muttersprachler freigegeben.** Erfolgreiche technische Prüfungen garantieren weder perfekte Formulierungen noch fehlerfreie Textdarstellung.
 
-[Deutsche Übersetzung – GitHub-Diskussion #3906](https://github.com/Aurora-Viewer/Aurora-Viewer/discussions/3906)
+- Deutsche Übersetzung und Praxistests: **Micha (lupopa Grau)**
+- KI-gestützte Übersetzung, Prüfung und Entwicklung: **ChatGPT / OpenAI Codex**
+- Originalviewer und offizielle Übersetzung: **Aurora-Projekt und Community-Mitwirkende**
 
-### Mitwirkende
-
-- Deutsche Übersetzung und Tests: Micha (lupopa Grau)
-- Unterstützung bei Übersetzung und Entwicklung: ChatGPT und OpenAI Codex
-- Original-Aurora-Viewer: Das Aurora-Entwicklerteam
-
-Dies ist eine unabhängige Community-Übersetzung und keine offizielle Aurora-Version.
+Dieses Projekt ist unabhängig und **keine offizielle Aurora-Veröffentlichung**. Siehe [LICENSE](LICENSE).
